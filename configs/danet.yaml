@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: danet
+  BACKBONE: resnet50
+  NUM_CLASS: 4
+  RESUME: None
+
+LOSS: 
+  TYPE: MainAuxLoss
+  AUX_WEIGHT: [0.4]
+  META_LOSS_TYPE: "jointedge"
+
+DATA:
+  DATASET: shelves
+  INPUT_HEIGHT: 640
+  INPUT_WIDTH: 640

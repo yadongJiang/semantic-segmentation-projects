@@ -1,0 +1,14 @@
+MODEL:
+  TYPE: deeplabv3plusplus
+  BACKBONE: resnet50
+  NUM_CLASS: 21
+  RESUME: None
+  OUTPUT_STRIDE: 16
+
+LOSS: 
+  TYPE: JointEdgeSegLoss
+
+DATA:
+  DATASET: shelves
+  INPUT_HEIGHT: 640
+  INPUT_WIDTH: 640

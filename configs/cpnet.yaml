@@ -1,0 +1,13 @@
+MODEL:
+  TYPE: cpnet
+  BACKBONE: resnet34
+  NUM_CLASS: 4
+  RESUME: None
+
+LOSS: 
+  TYPE: CPNetLoss
+
+DATA:
+  DATASET: shelves
+  INPUT_HEIGHT: 640
+  INPUT_WIDTH: 640

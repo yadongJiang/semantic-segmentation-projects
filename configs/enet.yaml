@@ -1,0 +1,13 @@
+MODEL:
+  TYPE: enet
+  BACKBONE: None
+  NUM_CLASS: 4
+  RESUME: None
+
+LOSS: 
+  TYPE: JointEdgeSegLoss
+
+DATA:
+  DATASET: shelves
+  INPUT_HEIGHT: 640
+  INPUT_WIDTH: 640

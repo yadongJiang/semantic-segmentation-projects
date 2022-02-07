@@ -1,0 +1,15 @@
+MODEL:
+  TYPE: espnet
+  BACKBONE: None
+  NUM_CLASS: 4
+  RESUME: None
+  P: 8
+  Q: 2
+
+LOSS: 
+  TYPE: JointEdgeSegLoss
+
+DATA:
+  DATASET: shelves
+  INPUT_HEIGHT: 640
+  INPUT_WIDTH: 640
