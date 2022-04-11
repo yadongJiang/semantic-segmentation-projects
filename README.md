@@ -1,15 +1,15 @@
 # Dmall_segment
     实现了一些常用的语义分割算法，可以支持VOC以及自定义的数据集训练
 
-# 环境依赖
+## 环境依赖
     pytorch-1.6
     PIL
     Opencv
     thop
 
 
-## Supported algorithms
-    [deeplabv3++](https://arxiv.org/pdf/1802.02611.pdf)
+## 支持的算法
+    1.[deeplabv3++](https://arxiv.org/pdf/1802.02611.pdf)
     [enet](https://arxiv.org/pdf/1606.02147.pdf)
     [espnet](https://arxiv.org/abs/1803.06815v2)
     [icnet](https://arxiv.org/pdf/1704.08545.pdf)
