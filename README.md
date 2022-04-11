@@ -25,5 +25,5 @@ thop
 
 ## Training
 参数可以在opts.py中配置，比如一些关键参数，如--model,--batch_size, --lr, --dataset, --data_root等等。
-    For example:
+For example:
     python main.py --model bisenetv1 --gpu_id 0 --year 2012_aug --crop_val --lr 0.01 --crop_size 640 --batch_size 16
